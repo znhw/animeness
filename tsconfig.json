@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/TitleCard.jsx", "src/app/manga/[slug]/page.jsx", "src/app/layout.jsx", "src/app/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/TitleCard.jsx", "src/app/manga/[slug]/page.jsx", "src/app/layout.jsx", "src/app/page.jsx", "scripts/generate-sitemap.js"],
   "exclude": ["node_modules"]
 }

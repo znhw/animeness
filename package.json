@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "export": "next build"   
+    "export": "next build",
+  "generate-sitemap": "node ./scripts/generate-sitemap.js",
+    "build": "npm run generate-sitemap && next build && next export"
   },
   "dependencies": {
     "@next/third-parties": "^15.5.2",
@@ -23,6 +24,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
