@@ -7,8 +7,8 @@
     "start": "next start",
     "lint": "eslint",
     "export": "next build",
-  "generate-sitemap": "node ./scripts/generate-sitemap.js",
-    "build": "npm run generate-sitemap && next build && next export"
+    "generate-sitemap": "node ./scripts/generate-sitemap.js",
+    "build": "next build"
   },
   "dependencies": {
     "@next/third-parties": "^15.5.2",
