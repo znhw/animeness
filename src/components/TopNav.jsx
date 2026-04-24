@@ -7,7 +7,7 @@ export default function TopNav() {
     return (
         <>
             <div className={styles.topContainer}>
-                <a href='/'>Animeness</a>
+                <a href='/'>Manga</a>
                 <div className={styles.topRightContainer}>
                     <Link href="/library"><BooksIcon size={27}/></Link>
                     <Link href="/dashboard"><UserCircleIcon size={30}/></Link>
